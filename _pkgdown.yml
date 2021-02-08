@@ -23,4 +23,4 @@ reference:
   -  title: Using the healthyverse
      desc: Install all of the core healthyR packages
      contents:
-     -  matches("attach")
+     -  contains("attach")
