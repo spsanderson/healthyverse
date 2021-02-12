@@ -1,61 +1,74 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# healthyverse
+# tidyverse <a href='https://tidyverse.tidyverse.org'><img src='man/figures/logo.png' align="right" height="138.5" /></a>
 
 <!-- badges: start -->
+
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/healthyR.data)](https://cran.r-project.org/package=healthyverse)
+![](http://cranlogs.r-pkg.org/badges/healthyverse?color=brightgreen)
+![](http://cranlogs.r-pkg.org/badges/grand-total/healthyverse?color=brightgreen)
+[![Lifecycle:
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html##stable)
 <!-- badges: end -->
 
-The goal of healthyverse is to …
+## Overview
+
+The healthyverse is a set of packages that work in harmony because they
+share common data representations and API design. The **healthyverse**
+package is designed to make it easy to install and load core packages
+from the healthyverse in a single command.
 
 ## Installation
 
-You can install the released version of healthyverse from
-[CRAN](https://CRAN.R-project.org) with:
-
 ``` r
+# Install from CRAN
 install.packages("healthyverse")
-```
-
-And the development version from [GitHub](https://github.com/) with:
-
-``` r
+# Or the development version from GitHub
 # install.packages("devtools")
 devtools::install_github("spsanderson/healthyverse")
 ```
 
-## Example
+## Usage
 
-This is a basic example which shows you how to solve a common problem:
+`library(healthyverse)` will load the core healthyverse packages:
+
+-   [healthyR](https://www.spsanderson.com/healthyR/), for analyzing
+    common data problems in administrative data.
+-   [healthyR.data](https://www.spsanderson.com/healthyR.data), for a
+    simulated data-set.
+-   [healthyR.ts](https://www.spsanderson.com/healthyR.ts), for
+    time-series functions.
+
+You also get a condensed summary of conflicts with other packages you
+have loaded:
 
 ``` r
 library(healthyverse)
-## basic example code
+#> -- Attaching packages ------------------------------- healthyverse 0.0.0.9000 --
+#> v healthyR      0.1.1.9000     v healthyR.ts   0.1.1     
+#> v healthyR.data 1.0.0
+#> 
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+You can see conflicts created later with `healthyverse_conflicts()`:
 
 ``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
+library(MASS)
+healthyverse_conflicts()
 ```
 
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this. You could also
-use GitHub Actions to re-render `README.Rmd` every time you push. An
-example workflow can be found here:
-<a href="https://github.com/r-lib/actions/tree/master/examples" class="uri">https://github.com/r-lib/actions/tree/master/examples</a>.
+And you can check that all tidyverse packages are up-to-date with
+`healthyverse_update()`:
 
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
+``` r
+healthyverse_update()
+#> The following packages are out of date:
+#>  * healthyR (0.4.0 -> 0.4.1)
+#>  * healthyR.ts   (0.4.1 -> 0.5)
+#>  * healthyR.data  (0.12.6 -> 0.12.7)
+#> Update now?
+#> 
+#> 1: Yes
+#> 2: No
+```
