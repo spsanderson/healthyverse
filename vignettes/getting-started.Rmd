@@ -1,8 +1,8 @@
 ---
-title: "Getting Started with the heatlhyverse"
+title: "Getting Started with the healthyverse"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Getting Started with the heatlhyverse}
+  %\VignetteIndexEntry{Getting Started with the healthyverse}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
