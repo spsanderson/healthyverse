@@ -26,6 +26,7 @@ text_col <- function(x) {
 
 #' List all packages in the healthyverse
 #'
+#' @return A list of the healthyverse packages
 #' @param include_self Include healthyverse in the list?
 #' @export
 #' @examples

@@ -3,7 +3,7 @@
 #' This will check to see if all healthyverse packages (and optionally, their
 #' dependencies) are up-to-date, and will install after an interactive
 #' confirmation.
-#'
+#' @return This function do not return a value but rather are used for side effects.
 #' @inheritParams healthyverse_deps
 #' @export
 #' @examples
@@ -40,6 +40,7 @@ healthyverse_update <- function(recursive = FALSE, repos = getOption("repos")) {
 #' a quick idea of what's going on when you're helping someone else debug
 #' a problem.
 #'
+#' @return Get a situation report of the healthyverse
 #' @export
 healthyverse_sitrep <- function() {
     cli::cat_rule("R & RStudio")
@@ -68,6 +69,10 @@ healthyverse_sitrep <- function() {
 #'   healthyverse packages.
 #' @param repos The repositories to use to check for updates.
 #'   Defaults to \code{getOptions("repos")}.
+#'
+#' @return
+#' A message indicating the dependencies of the healthyverse
+#'
 #' @export
 healthyverse_deps <- function(recursive = FALSE, repos = getOption("repos")) {
     pkgs <- utils::available.packages(repos = repos)

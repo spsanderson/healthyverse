@@ -8,6 +8,9 @@
 #' make the base equivalents generic, so shouldn't negatively affect any
 #' existing code.
 #'
+#' @return
+#' A message in regards to library conflicts.
+#'
 #' @export
 #' @examples
 #' healthyverse_conflicts()
