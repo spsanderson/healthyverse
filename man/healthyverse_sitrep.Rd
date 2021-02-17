@@ -6,6 +6,9 @@
 \usage{
 healthyverse_sitrep()
 }
+\value{
+Get a situation report of the healthyverse
+}
 \description{
 This function gives a quick overview of the versions of R and RStudio as
 well as all healthyverse packages. It's primarily designed to help you get

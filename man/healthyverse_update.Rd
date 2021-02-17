@@ -13,6 +13,9 @@ healthyverse packages.}
 \item{repos}{The repositories to use to check for updates.
 Defaults to \code{getOptions("repos")}.}
 }
+\value{
+This function do not return a value but rather are used for side effects.
+}
 \description{
 This will check to see if all healthyverse packages (and optionally, their
 dependencies) are up-to-date, and will install after an interactive

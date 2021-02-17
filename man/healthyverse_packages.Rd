@@ -9,6 +9,9 @@ healthyverse_packages(include_self = TRUE)
 \arguments{
 \item{include_self}{Include healthyverse in the list?}
 }
+\value{
+A list of the healthyverse packages
+}
 \description{
 List all packages in the healthyverse
 }

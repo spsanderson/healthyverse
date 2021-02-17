@@ -6,6 +6,9 @@
 \usage{
 healthyverse_conflicts()
 }
+\value{
+A message in regards to library conflicts.
+}
 \description{
 This function lists all the conflicts between packages in the healthyverse
 and other packages that you have loaded.

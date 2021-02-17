@@ -13,6 +13,9 @@ healthyverse packages.}
 \item{repos}{The repositories to use to check for updates.
 Defaults to \code{getOptions("repos")}.}
 }
+\value{
+A message indicating the dependencies of the healthyverse
+}
 \description{
 List all healthyverse dependencies
 }
