@@ -35,9 +35,9 @@ devtools::install_github("spsanderson/healthyverse")
 
 -   [healthyR](https://www.spsanderson.com/healthyR/), for analyzing
     common data problems in administrative data.
--   [healthyR.data](https://www.spsanderson.com/healthyR.data), for a
+-   [healthyR.data](https://www.spsanderson.com/healthyR.data/), for a
     simulated data-set.
--   [healthyR.ts](https://www.spsanderson.com/healthyR.ts), for
+-   [healthyR.ts](https://www.spsanderson.com/healthyR.ts/), for
     time-series functions.
 
 You also get a condensed summary of conflicts with other packages you
