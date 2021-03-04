@@ -10,6 +10,8 @@
 ![](http://cranlogs.r-pkg.org/badges/grand-total/healthyverse?color=brightgreen)
 [![Lifecycle:
 stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html##stable)
+[![PRs
+Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 <!-- badges: end -->
 
 ## Overview
@@ -45,8 +47,8 @@ have loaded:
 
 ``` r
 library(healthyverse)
-#> -- Attaching packages ------------------------------- healthyverse 0.0.0.9000 --
-#> v healthyR      0.1.1.9000     v healthyR.ts   0.1.1     
+#> -- Attaching packages ------------------------------------ healthyverse 1.0.0 --
+#> v healthyR      0.1.2.9000     v healthyR.ts   0.1.1.9000
 #> v healthyR.data 1.0.0
 #> 
 ```

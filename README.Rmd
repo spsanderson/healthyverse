@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 ![](http://cranlogs.r-pkg.org/badges/healthyverse?color=brightgreen)
 ![](http://cranlogs.r-pkg.org/badges/grand-total/healthyverse?color=brightgreen)
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html##stable)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 <!-- badges: end -->
 
 ## Overview
