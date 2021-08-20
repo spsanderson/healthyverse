@@ -41,7 +41,7 @@ devtools::install_github("spsanderson/healthyverse")
     simulated data-set.
 -   [healthyR.ts](https://www.spsanderson.com/healthyR.ts/), for
     time-series functions.
--   [healthyR.ai](https://www.spanderson.com/healthyR.ai/), for ai
+-   [healthyR.ai](https://www.spsanderson.com/healthyR.ai/), for ai
     related functions.
 
 You also get a condensed summary of conflicts with other packages you
