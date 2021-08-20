@@ -41,15 +41,17 @@ devtools::install_github("spsanderson/healthyverse")
     simulated data-set.
 -   [healthyR.ts](https://www.spsanderson.com/healthyR.ts/), for
     time-series functions.
+-   [healthyR.ai](https://www.spanderson.com/healthyR.ai/), for ai
+    related functions.
 
 You also get a condensed summary of conflicts with other packages you
 have loaded:
 
 ``` r
 library(healthyverse)
-#> -- Attaching packages ------------------------------------ healthyverse 1.0.0 --
-#> v healthyR      0.1.2.9000     v healthyR.ts   0.1.1.9000
-#> v healthyR.data 1.0.0
+#> -- Attaching packages ------------------------------- healthyverse 1.0.0.9000 --
+#> v healthyR      0.1.5.9000     v healthyR.ts   0.1.2.9000
+#> v healthyR.data 1.0.1          v healthyR.ai   0.0.1
 #> 
 ```
 
