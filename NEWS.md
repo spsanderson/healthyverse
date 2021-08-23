@@ -1,4 +1,5 @@
 # healthyverse 1.0.1
+* Added healthyR.ai to healthyverse
 
 # healthyverse 1.0.0
 * On CRAN
