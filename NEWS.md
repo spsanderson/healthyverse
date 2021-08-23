@@ -1,4 +1,4 @@
-# healthyverse (development version)
+# healthyverse 1.0.1
 
 # healthyverse 1.0.0
 * On CRAN
