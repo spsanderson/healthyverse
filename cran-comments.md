@@ -1,5 +1,5 @@
 ## Test environments
-* local R installation, R 4.0.2
+* local R installation, R 4.1.0
 * ubuntu 16.04 (on travis-ci), R 4.0.2
 * win-builder (devel)
 
@@ -7,4 +7,4 @@
 
 0 errors | 0 warnings | 1 note
 
-* This is a new release.
+* This is an update to include healthyR.ai to the healthyverse.
