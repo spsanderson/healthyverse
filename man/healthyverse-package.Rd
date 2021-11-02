@@ -6,10 +6,7 @@
 \alias{healthyverse-package}
 \title{healthyverse: Easily Install and Load the 'healthyverse'}
 \description{
-The 'healthyverse' is a set of packages that work in
-    harmony because they share common data representations and 'API'
-    design. This package is designed to make it easy to install and load
-    multiple 'healthyverse' packages in a single step.
+The 'healthyverse' is a set of packages that work in harmony because they share common data representations and 'API' design. This package is designed to make it easy to install and load multiple 'healthyverse' packages in a single step.
 }
 \author{
 \strong{Maintainer}: Steven Sanderson \email{spsanderson@gmail.com}
