@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# healthyverse
+# healthyverse <img src="man/figures/test2.png" width="147" height="170" align="right" />
 
 <!-- badges: start -->
 
@@ -49,9 +49,9 @@ have loaded:
 
 ``` r
 library(healthyverse)
-#> -- Attaching packages ------------------------------- healthyverse 1.0.0.9000 --
-#> v healthyR      0.1.5.9000     v healthyR.ts   0.1.2.9000
-#> v healthyR.data 1.0.1          v healthyR.ai   0.0.1
+#> -- Attaching packages ------------------------------- healthyverse 1.0.1.9000 --
+#> v healthyR      0.1.6          v healthyR.ts   0.1.3.9000
+#> v healthyR.data 1.0.1.9000     v healthyR.ai   0.0.2.9000
 #> 
 ```
 
