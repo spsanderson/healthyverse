@@ -8,6 +8,14 @@
 \description{
 The 'healthyverse' is a set of packages that work in harmony because they share common data representations and 'API' design. This package is designed to make it easy to install and load multiple 'healthyverse' packages in a single step.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/spsanderson/healthyverse}
+  \item Report bugs at \url{https://github.com/spsanderson/healthyverse/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Steven Sanderson \email{spsanderson@gmail.com}
 
