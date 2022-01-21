@@ -1,6 +1,6 @@
 Package: healthyverse
 Title: Easily Install and Load the 'healthyverse'
-Version: 1.0.2
+Version: 1.0.2.9000
 Authors@R: c(
     person("Steven","Sanderson", email = "spsanderson@gmail.com", role = c("aut","cre")),
     person("Steven Sanderson", role = "cph"))

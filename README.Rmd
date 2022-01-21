@@ -43,6 +43,7 @@ devtools::install_github("spsanderson/healthyverse")
 * [healthyR.data](https://www.spsanderson.com/healthyR.data/), for a simulated data-set.
 * [healthyR.ts](https://www.spsanderson.com/healthyR.ts/), for time-series functions.
 * [healthyR.ai](https://www.spsanderson.com/healthyR.ai/), for ai related functions.
+* [TidyDensity](https://www.spsanderson.com/TidyDesntiy/), for tidy style r_ distriubtion data.
 
 You also get a condensed summary of conflicts with other packages you have loaded:
 
