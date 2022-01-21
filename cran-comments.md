@@ -7,4 +7,4 @@
 
 0 errors | 0 warnings | 1 note
 
-* This is an update to include healthyR.ai to the healthyverse.
+* This is an update to include TidyDensity to the healthyverse.
