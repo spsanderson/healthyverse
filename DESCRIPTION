@@ -27,6 +27,7 @@ Imports:
     healthyR.data,
     healthyR.ts,
     healthyR.ai,
+    TidyDensity,
     dplyr,
     purrr,
     tibble,

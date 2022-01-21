@@ -50,8 +50,10 @@ have loaded:
 ``` r
 library(healthyverse)
 #> -- Attaching packages ------------------------------- healthyverse 1.0.1.9000 --
-#> v healthyR      0.1.6          v healthyR.ts   0.1.3.9000
-#> v healthyR.data 1.0.1.9000     v healthyR.ai   0.0.2.9000
+#> v healthyR      0.1.7.9000     v healthyR.ai   0.0.6     
+#> v healthyR.data 1.0.1.9000     v TidyDensity   0.0.1     
+#> v healthyR.ts   0.1.7
+#> Warning: package 'healthyR.ts' was built under R version 4.1.2
 #> 
 ```
 

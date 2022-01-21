@@ -1,5 +1,7 @@
 # healthyverse (development version)
 
+* Added TidyDensity to healthyverse
+
 # healthyverse 1.0.1
 * Added healthyR.ai to healthyverse
 
