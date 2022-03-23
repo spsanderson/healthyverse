@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/healthyverse)](https://cran.r-project.org/package=healthyverse)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/healthyverse)](https://cran.r-project.org/package=healthyverse)
 ![](http://cranlogs.r-pkg.org/badges/healthyverse?color=brightgreen)
 ![](http://cranlogs.r-pkg.org/badges/grand-total/healthyverse?color=brightgreen)
 [![Lifecycle:
@@ -43,7 +43,7 @@ devtools::install_github("spsanderson/healthyverse")
     time-series functions.
 -   [healthyR.ai](https://www.spsanderson.com/healthyR.ai/), for ai
     related functions.
--   [TidyDensity](https://www.spsanderson.com/TidyDesntiy/), for tidy
+-   [TidyDensity](https://www.spsanderson.com/TidyDensity/), for tidy
     style r\_ distriubtion data.
 
 You also get a condensed summary of conflicts with other packages you
@@ -51,11 +51,10 @@ have loaded:
 
 ``` r
 library(healthyverse)
-#> -- Attaching packages ------------------------------- healthyverse 1.0.2.9000 --
-#> v healthyR      0.1.7.9000     v healthyR.ai   0.0.6     
-#> v healthyR.data 1.0.1.9000     v TidyDensity   0.0.1     
-#> v healthyR.ts   0.1.7
-#> Warning: package 'healthyR.ts' was built under R version 4.1.2
+#> -- Attaching packages ------------------------------------ healthyverse 1.0.2 --
+#> v healthyR      0.1.8          v healthyR.ai   0.0.6.9000
+#> v healthyR.data 1.0.1.9000     v TidyDensity   1.0.0.9000
+#> v healthyR.ts   0.1.8.9000
 #> 
 ```
 
