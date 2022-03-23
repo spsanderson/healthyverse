@@ -55,7 +55,7 @@
   </a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Documentation
      
     <span class="caret"></span>
@@ -94,14 +94,19 @@
       </header><div class="row">
   <div class="contents col-md-9">
 <div class="section level1">
-<div class="page-header"><h1 id="healthyverse-">healthyverse <img src="reference/figures/test2.png" width="147" height="170" align="right"><a class="anchor" aria-label="anchor" href="#healthyverse-"></a>
+<div class="page-header"><h1 id="healthyverse-">healthyverse
+<img src="reference/figures/test2.png" width="147" height="170" align="right"><a class="anchor" aria-label="anchor" href="#healthyverse-"></a>
 </h1></div>
 <!-- badges: start -->
 
 <div class="section level2">
 <h2 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
 </h2>
-<p>The healthyverse is a set of packages that work in harmony because they share common data representations and API design. The <strong>healthyverse</strong> package is designed to make it easy to install and load core packages from the healthyverse in a single command.</p>
+<p>The healthyverse is a set of packages that work in harmony because
+they share common data representations and API design. The
+<strong>healthyverse</strong> package is designed to make it easy to
+install and load core packages from the healthyverse in a single
+command.</p>
 </div>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
@@ -116,33 +121,41 @@
 <div class="section level2">
 <h2 id="usage">Usage<a class="anchor" aria-label="anchor" href="#usage"></a>
 </h2>
-<p><code><a href="https://github.com/spsanderson/healthyverse" class="external-link">library(healthyverse)</a></code> will load the core healthyverse packages:</p>
+<p><code><a href="https://github.com/spsanderson/healthyverse" class="external-link">library(healthyverse)</a></code> will load the core healthyverse
+packages:</p>
 <ul>
 <li>
-<a href="https://www.spsanderson.com/healthyR/" class="external-link">healthyR</a>, for analyzing common data problems in administrative data.</li>
+<a href="https://www.spsanderson.com/healthyR/" class="external-link">healthyR</a>, for
+analyzing common data problems in administrative data.</li>
 <li>
-<a href="https://www.spsanderson.com/healthyR.data/" class="external-link">healthyR.data</a>, for a simulated data-set.</li>
+<a href="https://www.spsanderson.com/healthyR.data/" class="external-link">healthyR.data</a>, for
+a simulated data-set.</li>
 <li>
-<a href="https://www.spsanderson.com/healthyR.ts/" class="external-link">healthyR.ts</a>, for time-series functions.</li>
+<a href="https://www.spsanderson.com/healthyR.ts/" class="external-link">healthyR.ts</a>,
+for time-series functions.</li>
 <li>
-<a href="https://www.spsanderson.com/healthyR.ai/" class="external-link">healthyR.ai</a>, for ai related functions.</li>
+<a href="https://www.spsanderson.com/healthyR.ai/" class="external-link">healthyR.ai</a>,
+for ai related functions.</li>
 <li>
-<a href="https://www.spsanderson.com/TidyDesntiy/" class="external-link">TidyDensity</a>, for tidy style r_ distriubtion data.</li>
+<a href="https://www.spsanderson.com/TidyDensity/" class="external-link">TidyDensity</a>,
+for tidy style r_ distribution data.</li>
 </ul>
-<p>You also get a condensed summary of conflicts with other packages you have loaded:</p>
+<p>You also get a condensed summary of conflicts with other packages you
+have loaded:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/spsanderson/healthyverse" class="external-link">healthyverse</a></span><span class="op">)</span>
-<span class="co">#&gt; -- Attaching packages ------------------------------- healthyverse 1.0.2.9000 --</span>
-<span class="co">#&gt; v healthyR      0.1.7.9000     v healthyR.ai   0.0.6     </span>
-<span class="co">#&gt; v healthyR.data 1.0.1.9000     v TidyDensity   0.0.1     </span>
-<span class="co">#&gt; v healthyR.ts   0.1.7</span>
-<span class="co">#&gt; Warning: package 'healthyR.ts' was built under R version 4.1.2</span>
+<span class="co">#&gt; -- Attaching packages ------------------------------------ healthyverse 1.0.2 --</span>
+<span class="co">#&gt; v healthyR      0.1.8          v healthyR.ai   0.0.6.9000</span>
+<span class="co">#&gt; v healthyR.data 1.0.1.9000     v TidyDensity   1.0.0.9000</span>
+<span class="co">#&gt; v healthyR.ts   0.1.8.9000</span>
 <span class="co">#&gt; </span></code></pre></div>
-<p>You can see conflicts created later with <code><a href="reference/healthyverse_conflicts.html">healthyverse_conflicts()</a></code>:</p>
+<p>You can see conflicts created later with
+<code><a href="reference/healthyverse_conflicts.html">healthyverse_conflicts()</a></code>:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="http://www.stats.ox.ac.uk/pub/MASS4/" class="external-link">MASS</a></span><span class="op">)</span>
 <span class="fu"><a href="reference/healthyverse_conflicts.html">healthyverse_conflicts</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
-<p>And you can check that all tidyverse packages are up-to-date with <code><a href="reference/healthyverse_update.html">healthyverse_update()</a></code>:</p>
+<p>And you can check that all tidyverse packages are up-to-date with
+<code><a href="reference/healthyverse_update.html">healthyverse_update()</a></code>:</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/healthyverse_update.html">healthyverse_update</a></span><span class="op">(</span><span class="op">)</span>
 <span class="co">#&gt; The following packages are out of date:</span>
@@ -211,7 +224,8 @@
 
 <div class="pkgdown">
   <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.2.</p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a>
+2.0.2.</p>
 </div>
 
       </footer>
