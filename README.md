@@ -44,7 +44,7 @@ devtools::install_github("spsanderson/healthyverse")
 -   [healthyR.ai](https://www.spsanderson.com/healthyR.ai/), for ai
     related functions.
 -   [TidyDensity](https://www.spsanderson.com/TidyDensity/), for tidy
-    style r\_ distriubtion data.
+    style r\_ distribution data.
 
 You also get a condensed summary of conflicts with other packages you
 have loaded:
