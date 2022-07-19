@@ -1,7 +1,8 @@
+url: https://www.spsanderson.com/healthyverse/
 template:
-  params:
-    bootswatch: flatly
-    ganalytics: G-HLBX6J43RB
+  bootstrap: 5
+  bootswatch: flatly
+  ganalytics: G-HLBX6J43RB
 
 navbar:
   title: "healthyR"
