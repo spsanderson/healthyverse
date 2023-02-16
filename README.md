@@ -35,27 +35,33 @@ devtools::install_github("spsanderson/healthyverse")
 
 `library(healthyverse)` will load the core healthyverse packages:
 
--   [healthyR](https://www.spsanderson.com/healthyR/), for analyzing
-    common data problems in administrative data.
--   [healthyR.data](https://www.spsanderson.com/healthyR.data/), for a
-    simulated data-set.
--   [healthyR.ts](https://www.spsanderson.com/healthyR.ts/), for
-    time-series functions.
--   [healthyR.ai](https://www.spsanderson.com/healthyR.ai/), for ai
-    related functions.
--   [TidyDensity](https://www.spsanderson.com/TidyDensity/), for tidy
-    style r\_ distribution data.
+- [healthyR](https://www.spsanderson.com/healthyR/), for analyzing
+  common data problems in administrative data.
+- [healthyR.data](https://www.spsanderson.com/healthyR.data/), for a
+  simulated data-set.
+- [healthyR.ts](https://www.spsanderson.com/healthyR.ts/), for
+  time-series functions.
+- [healthyR.ai](https://www.spsanderson.com/healthyR.ai/), for ai
+  related functions.
+- [TidyDensity](https://www.spsanderson.com/TidyDensity/), for tidy
+  style r\_ distribution data.
+- [tidyAML](https://www.spsanderson.com/tidyAML/), for tidymodels
+  auto-ml.
 
 You also get a condensed summary of conflicts with other packages you
 have loaded:
 
 ``` r
 library(healthyverse)
-#> -- Attaching packages ------------------------------------ healthyverse 1.0.2 --
-#> v healthyR      0.1.8          v healthyR.ai   0.0.6.9000
-#> v healthyR.data 1.0.1.9000     v TidyDensity   1.0.0.9000
-#> v healthyR.ts   0.1.8.9000
-#> 
+#> ── Attaching packages ─────────────────────────────── healthyverse 1.0.2.9000 ──
+#> ✔ healthyR      0.2.0          ✔ healthyR.ai   0.0.12    
+#> ✔ healthyR.data 1.0.2.9000     ✔ TidyDensity   1.2.4     
+#> ✔ healthyR.ts   0.2.7          ✔ tidyAML       0.0.1
+#> Warning: package 'TidyDensity' was built under R version 4.2.2
+#> ── Conflicts ─────────────────────────────────────── healthyverse_conflicts() ──
+#> ✖ healthyR.ai::kmeans_obj() masks healthyR::kmeans_obj()
+#> ✖ healthyR.ai::umap_list()  masks healthyR::umap_list()
+#> ✖ healthyR.ai::umap_plt()   masks healthyR::umap_plt()
 ```
 
 You can see conflicts created later with `healthyverse_conflicts()`:
@@ -63,6 +69,10 @@ You can see conflicts created later with `healthyverse_conflicts()`:
 ``` r
 library(MASS)
 healthyverse_conflicts()
+#> ── Conflicts ─────────────────────────────────────── healthyverse_conflicts() ──
+#> ✖ healthyR.ai::kmeans_obj() masks healthyR::kmeans_obj()
+#> ✖ healthyR.ai::umap_list()  masks healthyR::umap_list()
+#> ✖ healthyR.ai::umap_plt()   masks healthyR::umap_plt()
 ```
 
 And you can check that all tidyverse packages are up-to-date with
