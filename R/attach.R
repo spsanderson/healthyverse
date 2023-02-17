@@ -1,5 +1,4 @@
-core <- c("healthyR","healthyR.data","healthyR.ts","healthyR.ai","TidyDensity",
-          "tidyAML")
+core <- c("healthyR","healthyR.data","healthyR.ts","healthyR.ai","TidyDensity","tidyAML")
 
 core_unloaded <- function() {
     search <- paste0("package:", core)
