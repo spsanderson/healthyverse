@@ -53,15 +53,14 @@ have loaded:
 
 ``` r
 library(healthyverse)
-#> ── Attaching packages ─────────────────────────────── healthyverse 1.0.2.9000 ──
-#> ✔ healthyR      0.2.0          ✔ healthyR.ai   0.0.12    
+#> ── Attaching packages ─────────────────────────────── healthyverse 1.0.3.9000 ──
+#> ✔ healthyR      0.2.1          ✔ healthyR.ai   0.0.13    
 #> ✔ healthyR.data 1.0.2.9000     ✔ TidyDensity   1.2.4     
-#> ✔ healthyR.ts   0.2.7          ✔ tidyAML       0.0.1
+#> ✔ healthyR.ts   0.2.8          ✔ tidyAML       0.0.1
 #> Warning: package 'TidyDensity' was built under R version 4.2.2
-#> ── Conflicts ─────────────────────────────────────── healthyverse_conflicts() ──
-#> ✖ healthyR.ai::kmeans_obj() masks healthyR::kmeans_obj()
-#> ✖ healthyR.ai::umap_list()  masks healthyR::umap_list()
-#> ✖ healthyR.ai::umap_plt()   masks healthyR::umap_plt()
+#> Warning: package 'tidyAML' was built under R version 4.2.2
+#> Warning: package 'parsnip' was built under R version 4.2.3
+#> 
 ```
 
 You can see conflicts created later with `healthyverse_conflicts()`:
@@ -69,10 +68,6 @@ You can see conflicts created later with `healthyverse_conflicts()`:
 ``` r
 library(MASS)
 healthyverse_conflicts()
-#> ── Conflicts ─────────────────────────────────────── healthyverse_conflicts() ──
-#> ✖ healthyR.ai::kmeans_obj() masks healthyR::kmeans_obj()
-#> ✖ healthyR.ai::umap_list()  masks healthyR::umap_list()
-#> ✖ healthyR.ai::umap_plt()   masks healthyR::umap_plt()
 ```
 
 And you can check that all tidyverse packages are up-to-date with
