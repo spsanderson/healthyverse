@@ -7,4 +7,5 @@
 
 0 errors | 0 warnings | 1 note
 
-* This is an update to include tidyAML to the healthyverse.
+* This is a re-submission to due being archived because of the timtk archive which
+has since been addressed.
