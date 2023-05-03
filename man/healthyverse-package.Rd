@@ -17,12 +17,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Steven Sanderson \email{spsanderson@gmail.com}
-
-Other contributors:
-\itemize{
-  \item Steven Sanderson [copyright holder]
-}
+\strong{Maintainer}: Steven Sanderson \email{spsanderson@gmail.com} (\href{https://orcid.org/0009-0006-7661-8247}{ORCID}) [copyright holder]
 
 }
 \keyword{internal}

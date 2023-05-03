@@ -2,8 +2,10 @@ Package: healthyverse
 Title: Easily Install and Load the 'healthyverse'
 Version: 1.0.4.9000
 Authors@R: c(
-    person("Steven","Sanderson", email = "spsanderson@gmail.com", role = c("aut","cre")),
-    person("Steven Sanderson", role = "cph"))
+    person("Steven","Sanderson", email = "spsanderson@gmail.com", role = c("aut","cre","cph"),
+      comment = c(ORCID = "0009-0006-7661-8247")
+      )
+    )
 Description: The 'healthyverse' is a set of packages that work in
     harmony because they share common data representations and 'API'
     design. This package is designed to make it easy to install and load
