@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# healthyverse <img src="man/figures/test2.png" width="147" height="170" align="right" />
+# healthyverse <img src="man/figures/logo.png" width="147" height="170" align="right" />
 
 <!-- badges: start -->
 
@@ -53,12 +53,10 @@ have loaded:
 
 ``` r
 library(healthyverse)
-#> ── Attaching packages ─────────────────────────────── healthyverse 1.0.3.9000 ──
-#> ✔ healthyR      0.2.1          ✔ healthyR.ai   0.0.13    
-#> ✔ healthyR.data 1.0.2.9000     ✔ TidyDensity   1.2.4     
-#> ✔ healthyR.ts   0.2.8          ✔ tidyAML       0.0.1
-#> Warning: package 'TidyDensity' was built under R version 4.2.2
-#> Warning: package 'tidyAML' was built under R version 4.2.2
+#> ── Attaching packages ─────────────────────────────── healthyverse 1.0.4.9000 ──
+#> ✔ healthyR      0.2.1.9000      ✔ healthyR.ai   0.0.13.9000
+#> ✔ healthyR.data 1.0.2.9000      ✔ TidyDensity   1.2.4.9000 
+#> ✔ healthyR.ts   0.2.8.9000      ✔ tidyAML       0.0.2.9000
 #> Warning: package 'parsnip' was built under R version 4.2.3
 #> 
 ```
