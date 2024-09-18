@@ -45,6 +45,8 @@ devtools::install_github("spsanderson/healthyverse")
 * [healthyR.ai](https://www.spsanderson.com/healthyR.ai/), for ai related functions.
 * [TidyDensity](https://www.spsanderson.com/TidyDensity/), for tidy style r_ distribution data.
 * [tidyAML](https://www.spsanderson.com/tidyAML/), for tidymodels auto-ml.
+* [RandomWalker](https://www.spsanderson.com/RandomWalker/), for random walk functions.
+
 
 You also get a condensed summary of conflicts with other packages you have loaded:
 

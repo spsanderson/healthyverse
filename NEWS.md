@@ -1,6 +1,6 @@
 # healthyverse (development version)
 
-# healthyverse 1.0.4
+* Added RandomWalker to healthyverse
 
 # healthyverse 1.0.3
 
