@@ -24,18 +24,18 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 Imports:
-    healthyR,
-    healthyR.data,
-    healthyR.ts,
-    healthyR.ai,
-    TidyDensity,
-    tidyAML,
-    RandomWalker,
-    dplyr,
-    purrr,
-    tibble,
-    magrittr,
-    rlang (>= 0.1.2),
-    crayon,
-    rstudioapi,
-    cli
+    healthyR (>= 0.2.2),
+    healthyR.data (>= 1.1.1),
+    healthyR.ts (>= 0.3.0),
+    healthyR.ai (>= 0.1.0),
+    TidyDensity (>= 1.5.0),
+    tidyAML (>= 0.0.5),
+    RandomWalker (>= 0.1.0),
+    dplyr (>= 1.1.4),
+    purrr (>= 1.0.2),
+    tibble (>= 3.2.1),
+    magrittr (>= 2.0.3),
+    rlang (>= 1.1.4),
+    crayon (>= 1.5.3),
+    rstudioapi (>= 0.16.0),
+    cli (>= 3.6.3)
