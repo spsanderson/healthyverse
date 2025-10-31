@@ -126,9 +126,10 @@ library(healthyverse)
 #> ✖ tidyAML::quantile_normalize()   masks TidyDensity::quantile_normalize()
 ```
 
-This single command loads all seven core packages and displays: - ✅
-Which packages were loaded and their versions - ⚠️ Any conflicts with
-functions from other loaded packages
+This single command loads all seven core packages and displays:
+
+- ✅ Which packages were loaded and their versions
+- ⚠️ Any conflicts with functions from other loaded packages
 
 ### Managing Conflicts
 

@@ -87,6 +87,7 @@ library(healthyverse)
 ```
 
 This single command loads all seven core packages and displays:
+
 - ✅ Which packages were loaded and their versions
 - ⚠️ Any conflicts with functions from other loaded packages
 
