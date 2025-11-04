@@ -15,6 +15,7 @@ navbar:
         -  text: "Getting Started"
         -  text: "Getting Started with healthyverse"
            href: articles/getting-started.html
+
     - text: "Function Reference"
       href: reference/index.html
     - text: "News"

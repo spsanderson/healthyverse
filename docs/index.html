@@ -6,16 +6,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Easily Install and Load the healthyverse • healthyverse</title>
-<!-- favicons --><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="apple-touch-icon.png">
-<link rel="apple-touch-icon" type="image/png" sizes="120x120" href="apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" type="image/png" sizes="76x76" href="apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" type="image/png" sizes="60x60" href="apple-touch-icon-60x60.png">
+<!-- favicons --><link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="”image/svg+xml”" href="favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" sizes="any" href="favicon.ico">
+<link rel="manifest" href="site.webmanifest">
 <script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
-<script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.4.2/css/all.min.css" rel="stylesheet">
-<link href="deps/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet">
+<script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
+<link href="deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
 <script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Easily Install and Load the healthyverse">
 <meta name="description" content="The healthyverse is a set of packages that work in harmony because they share common data representations and API design. This package is designed to make it easy to install and load multiple healthyverse packages in a single step.">
 <meta property="og:description" content="The healthyverse is a set of packages that work in harmony because they share common data representations and API design. This package is designed to make it easy to install and load multiple healthyverse packages in a single step.">
@@ -71,62 +70,115 @@
 <div class="section level2">
 <h2 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
 </h2>
-<p>The healthyverse is a set of packages that work in harmony because they share common data representations and API design. The <strong>healthyverse</strong> package is designed to make it easy to install and load core packages from the healthyverse in a single command.</p>
+<p>If you want to start with the package wiki you can do that here: <a href="/wiki/README.html">Package Wiki</a></p>
+<p>The <strong>healthyverse</strong> is a comprehensive ecosystem of R packages designed for healthcare data analysis, time-series forecasting, machine learning, and statistical modeling. Inspired by the tidyverse philosophy, the healthyverse packages work in harmony because they share common data representations and API design patterns.</p>
+<p>The <strong>healthyverse</strong> package itself is a meta-package that makes it easy to install and load all core healthyverse packages in a single command, similar to how the tidyverse package works for data science workflows.</p>
+<div class="section level3">
+<h3 id="why-healthyverse">Why healthyverse?<a class="anchor" aria-label="anchor" href="#why-healthyverse"></a>
+</h3>
+<ul>
+<li>
+<strong>🏥 Healthcare Focus</strong>: Purpose-built tools for analyzing administrative healthcare data, patient records, and medical time-series</li>
+<li>
+<strong>🔄 Consistent API</strong>: All packages follow similar design patterns, making them easy to learn and use together</li>
+<li>
+<strong>📊 Comprehensive Toolkit</strong>: From data cleaning to machine learning, all tools you need in one ecosystem</li>
+<li>
+<strong>⚡ Workflow Efficiency</strong>: Load all packages at once and get notified of any function conflicts</li>
+<li>
+<strong>🔍 Dependency Management</strong>: Built-in tools to check package versions and update the entire suite</li>
+</ul>
+</div>
 </div>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
+<p>You can install the released version of healthyverse from <a href="https://CRAN.R-project.org" class="external-link">CRAN</a>:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># Install from CRAN</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"healthyverse"</span><span class="op">)</span></span>
-<span><span class="co"># Or the development version from GitHub</span></span>
-<span><span class="co"># install.packages("devtools")</span></span>
-<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/remotes/man/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"spsanderson/healthyverse"</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"healthyverse"</span><span class="op">)</span></span></code></pre></div>
+<p>Or install the development version from GitHub:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"spsanderson/healthyverse"</span><span class="op">)</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="core-packages">Core Packages<a class="anchor" aria-label="anchor" href="#core-packages"></a>
+</h2>
+<p>Loading <code><a href="https://www.spsanderson.com/healthyverse/">library(healthyverse)</a></code> will install and attach the following core packages:</p>
+<div class="section level3">
+<h3 id="data-analysis--management">Data Analysis &amp; Management<a class="anchor" aria-label="anchor" href="#data-analysis--management"></a>
+</h3>
+<ul>
+<li><p><strong><a href="https://www.spsanderson.com/healthyR/" class="external-link">healthyR</a></strong> - Tools for analyzing common data problems in healthcare administrative data. Includes functions for calculating length of stay, readmission rates, and other healthcare-specific metrics.</p></li>
+<li><p><strong><a href="https://www.spsanderson.com/healthyR.data/" class="external-link">healthyR.data</a></strong> - Provides simulated healthcare datasets for testing and learning. Perfect for educational purposes and developing proof-of-concept analyses.</p></li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="time-series--forecasting">Time-Series &amp; Forecasting<a class="anchor" aria-label="anchor" href="#time-series--forecasting"></a>
+</h3>
+<ul>
+<li>
+<strong><a href="https://www.spsanderson.com/healthyR.ts/" class="external-link">healthyR.ts</a></strong> - Comprehensive time-series analysis and forecasting functions optimized for healthcare data patterns. Includes tools for seasonal decomposition, trend analysis, and automated forecasting.</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="machine-learning--ai">Machine Learning &amp; AI<a class="anchor" aria-label="anchor" href="#machine-learning--ai"></a>
+</h3>
+<ul>
+<li><p><strong><a href="https://www.spsanderson.com/healthyR.ai/" class="external-link">healthyR.ai</a></strong> - AI and machine learning utilities specifically designed for healthcare applications. Features automated model building, evaluation, and prediction workflows.</p></li>
+<li><p><strong><a href="https://www.spsanderson.com/tidyAML/" class="external-link">tidyAML</a></strong> - Automated machine learning (AutoML) framework built on tidymodels. Streamlines the process of training, tuning, and comparing multiple models simultaneously.</p></li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="statistical-distributions--simulation">Statistical Distributions &amp; Simulation<a class="anchor" aria-label="anchor" href="#statistical-distributions--simulation"></a>
+</h3>
+<ul>
+<li><p><strong><a href="https://www.spsanderson.com/TidyDensity/" class="external-link">TidyDensity</a></strong> - Generate and visualize probability distributions in a tidy format. Makes it easy to work with, compare, and plot various statistical distributions.</p></li>
+<li><p><strong><a href="https://www.spsanderson.com/RandomWalker/" class="external-link">RandomWalker</a></strong> - Simulate and analyze random walk processes. Useful for modeling stochastic processes and understanding random behavior in systems.</p></li>
+</ul>
+</div>
 </div>
 <div class="section level2">
 <h2 id="usage">Usage<a class="anchor" aria-label="anchor" href="#usage"></a>
 </h2>
-<p><code><a href="https://www.spsanderson.com/healthyverse/">library(healthyverse)</a></code> will load the core healthyverse packages:</p>
-<ul>
-<li>
-<a href="https://www.spsanderson.com/healthyR/" class="external-link">healthyR</a>, for analyzing common data problems in administrative data.</li>
-<li>
-<a href="https://www.spsanderson.com/healthyR.data/" class="external-link">healthyR.data</a>, for a simulated data-set.</li>
-<li>
-<a href="https://www.spsanderson.com/healthyR.ts/" class="external-link">healthyR.ts</a>, for time-series functions.</li>
-<li>
-<a href="https://www.spsanderson.com/healthyR.ai/" class="external-link">healthyR.ai</a>, for ai related functions.</li>
-<li>
-<a href="https://www.spsanderson.com/TidyDensity/" class="external-link">TidyDensity</a>, for tidy style r_ distribution data.</li>
-<li>
-<a href="https://www.spsanderson.com/tidyAML/" class="external-link">tidyAML</a>, for tidymodels auto-ml.</li>
-<li>
-<a href="https://www.spsanderson.com/RandomWalker/" class="external-link">RandomWalker</a>, for random walk functions.</li>
-</ul>
-<p>You also get a condensed summary of conflicts with other packages you have loaded:</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<div class="section level3">
+<h3 id="getting-started">Getting Started<a class="anchor" aria-label="anchor" href="#getting-started"></a>
+</h3>
+<p>Simply load the healthyverse to get started:</p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://www.spsanderson.com/healthyverse/">healthyverse</a></span><span class="op">)</span></span>
-<span><span class="co">#&gt; ── Attaching packages ─────────────────────────────── healthyverse 1.0.4.9000 ──</span></span>
-<span><span class="co">#&gt; ✔ healthyR      0.2.2          ✔ TidyDensity   1.5.0     </span></span>
-<span><span class="co">#&gt; ✔ healthyR.data 1.1.1          ✔ tidyAML       0.0.5.9000</span></span>
-<span><span class="co">#&gt; ✔ healthyR.ts   0.3.0.9000     ✔ RandomWalker  0.1.0     </span></span>
-<span><span class="co">#&gt; ✔ healthyR.ai   0.1.0</span></span>
-<span><span class="co">#&gt; Warning: package 'healthyR.data' was built under R version 4.3.3</span></span>
-<span><span class="co">#&gt; Warning: package 'TidyDensity' was built under R version 4.3.3</span></span>
-<span><span class="co">#&gt; Warning: package 'parsnip' was built under R version 4.3.3</span></span>
-<span><span class="co">#&gt; Warning: package 'RandomWalker' was built under R version 4.3.3</span></span>
+<span><span class="co">#&gt; ── Attaching packages ─────────────────────────────── healthyverse 1.1.0.9000 ──</span></span>
+<span><span class="co">#&gt; ✔ healthyR      0.2.2          ✔ TidyDensity   1.5.2     </span></span>
+<span><span class="co">#&gt; ✔ healthyR.data 1.2.0          ✔ tidyAML       0.0.6.9000</span></span>
+<span><span class="co">#&gt; ✔ healthyR.ts   0.3.1          ✔ RandomWalker  1.0.0.9000</span></span>
+<span><span class="co">#&gt; ✔ healthyR.ai   0.1.1.9000</span></span>
 <span><span class="co">#&gt; ── Conflicts ─────────────────────────────────────── healthyverse_conflicts() ──</span></span>
 <span><span class="co">#&gt; ✖ tidyAML::check_duplicate_rows() masks TidyDensity::check_duplicate_rows()</span></span>
+<span><span class="co">#&gt; ✖ RandomWalker::cmedian()         masks TidyDensity::cmedian()</span></span>
 <span><span class="co">#&gt; ✖ tidyAML::quantile_normalize()   masks TidyDensity::quantile_normalize()</span></span></code></pre></div>
-<p>You can see conflicts created later with <code><a href="reference/healthyverse_conflicts.html">healthyverse_conflicts()</a></code>:</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<p>This single command loads all seven core packages and displays:</p>
+<ul>
+<li>✅ Which packages were loaded and their versions</li>
+<li>⚠️ Any conflicts with functions from other loaded packages</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="managing-conflicts">Managing Conflicts<a class="anchor" aria-label="anchor" href="#managing-conflicts"></a>
+</h3>
+<p>You’ll get an automatic summary of function conflicts when you load the healthyverse. You can check for conflicts at any time:</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="http://www.stats.ox.ac.uk/pub/MASS4/" class="external-link">MASS</a></span><span class="op">)</span></span>
 <span><span class="fu"><a href="reference/healthyverse_conflicts.html">healthyverse_conflicts</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="co">#&gt; ── Conflicts ─────────────────────────────────────── healthyverse_conflicts() ──</span></span>
 <span><span class="co">#&gt; ✖ tidyAML::check_duplicate_rows() masks TidyDensity::check_duplicate_rows()</span></span>
+<span><span class="co">#&gt; ✖ RandomWalker::cmedian()         masks TidyDensity::cmedian()</span></span>
 <span><span class="co">#&gt; ✖ tidyAML::quantile_normalize()   masks TidyDensity::quantile_normalize()</span></span></code></pre></div>
-<p>And you can check that all tidyverse packages are up-to-date with <code><a href="reference/healthyverse_update.html">healthyverse_update()</a></code>:</p>
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+</div>
+<div class="section level3">
+<h3 id="keeping-packages-updated">Keeping Packages Updated<a class="anchor" aria-label="anchor" href="#keeping-packages-updated"></a>
+</h3>
+<p>Check if any healthyverse packages need updating:</p>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="reference/healthyverse_update.html">healthyverse_update</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="co">#&gt; The following packages are out of date:</span></span>
 <span><span class="co">#&gt;  * healthyR (0.4.0 -&gt; 0.4.1)</span></span>
@@ -136,6 +188,103 @@
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; 1: Yes</span></span>
 <span><span class="co">#&gt; 2: No</span></span></code></pre></div>
+</div>
+<div class="section level3">
+<h3 id="getting-a-system-report">Getting a System Report<a class="anchor" aria-label="anchor" href="#getting-a-system-report"></a>
+</h3>
+<p>Generate a comprehensive report of your R environment and healthyverse package versions:</p>
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="reference/healthyverse_sitrep.html">healthyverse_sitrep</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+<p>This is particularly useful when reporting bugs or asking for help, as it provides all relevant version information.</p>
+</div>
+</div>
+<div class="section level2">
+<h2 id="example-workflows">Example Workflows<a class="anchor" aria-label="anchor" href="#example-workflows"></a>
+</h2>
+<p>Here are some common use cases for the healthyverse:</p>
+<p><strong>Healthcare Data Analysis</strong></p>
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://www.spsanderson.com/healthyverse/">healthyverse</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Analyze patient length of stay</span></span>
+<span><span class="co"># Calculate readmission rates  </span></span>
+<span><span class="co"># Generate healthcare metrics reports</span></span></code></pre></div>
+<p><strong>Time-Series Forecasting</strong></p>
+<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://www.spsanderson.com/healthyverse/">healthyverse</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Load historical patient volume data</span></span>
+<span><span class="co"># Perform seasonal decomposition</span></span>
+<span><span class="co"># Generate forecasts with confidence intervals</span></span>
+<span><span class="co"># Visualize trends and predictions</span></span></code></pre></div>
+<p><strong>Automated Machine Learning</strong></p>
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://www.spsanderson.com/healthyverse/">healthyverse</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Prepare healthcare dataset</span></span>
+<span><span class="co"># Automatically train multiple models</span></span>
+<span><span class="co"># Compare model performance</span></span>
+<span><span class="co"># Select best model for deployment</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="getting-help">Getting Help<a class="anchor" aria-label="anchor" href="#getting-help"></a>
+</h2>
+<p>If you encounter issues or have questions:</p>
+<ol style="list-style-type: decimal">
+<li>
+<strong>📖 Documentation</strong>: Each package has extensive documentation at <code>https://www.spsanderson.com/{package-name}/</code>
+</li>
+<li>
+<strong>🐛 Bug Reports</strong>: File issues at <a href="https://github.com/spsanderson/healthyverse/issues" class="external-link">github.com/spsanderson/healthyverse/issues</a>
+</li>
+<li>
+<strong>💬 Discussions</strong>: Use GitHub Discussions for questions and community support</li>
+<li>
+<strong>📧 Contact</strong>: Reach out to the maintainer at <a href="mailto:spsanderson@gmail.com" class="email">spsanderson@gmail.com</a>
+</li>
+</ol>
+<p>When asking for help, please run <code><a href="reference/healthyverse_sitrep.html">healthyverse_sitrep()</a></code> and include the output in your issue.</p>
+</div>
+<div class="section level2">
+<h2 id="contributing">Contributing<a class="anchor" aria-label="anchor" href="#contributing"></a>
+</h2>
+<p>We welcome contributions! Here’s how you can help:</p>
+<ul>
+<li>🐛 <strong>Report bugs</strong> and suggest features via <a href="https://github.com/spsanderson/healthyverse/issues" class="external-link">GitHub Issues</a>
+</li>
+<li>📝 <strong>Improve documentation</strong> by submitting pull requests</li>
+<li>🧪 <strong>Add tests</strong> to increase code coverage</li>
+<li>💡 <strong>Share use cases</strong> and examples with the community</li>
+<li>⭐ <strong>Star the repo</strong> to show your support</li>
+</ul>
+<p>Please note that the healthyverse project is released with a <a href="https://www.contributor-covenant.org/version/2/1/code_of_conduct/" class="external-link">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
+</div>
+<div class="section level2">
+<h2 id="citation">Citation<a class="anchor" aria-label="anchor" href="#citation"></a>
+</h2>
+<p>If you use the healthyverse in your research or work, please cite it:</p>
+<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/citation.html" class="external-link">citation</a></span><span class="op">(</span><span class="st">"healthyverse"</span><span class="op">)</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="related-projects">Related Projects<a class="anchor" aria-label="anchor" href="#related-projects"></a>
+</h2>
+<p>The healthyverse is part of a broader ecosystem of R packages for healthcare analytics:</p>
+<ul>
+<li>
+<strong><a href="https://www.tidyverse.org/" class="external-link">tidyverse</a></strong> - The inspiration for healthyverse’s design philosophy</li>
+<li>
+<strong><a href="https://www.tidymodels.org/" class="external-link">tidymodels</a></strong> - Framework for modeling and machine learning</li>
+<li>
+<strong><a href="https://pkg.robjhyndman.com/forecast/" class="external-link">forecast</a></strong> - Time-series forecasting methods</li>
+</ul>
+</div>
+<div class="section level2">
+<h2 id="package-status">Package Status<a class="anchor" aria-label="anchor" href="#package-status"></a>
+</h2>
+<p>The healthyverse is in active development. The current version is stable and suitable for production use. See <a href="NEWS.html">NEWS.md</a> for detailed change logs.</p>
+<hr>
+<p><strong>Author</strong>: Steven P. Sanderson II, MPH<br><strong>License</strong>: MIT<br><strong>Website</strong>: <a href="https://www.spsanderson.com/healthyverse/" class="uri">https://www.spsanderson.com/healthyverse/</a><br><strong>ORCID</strong>: <a href="https://orcid.org/0009-0006-7661-8247" class="external-link">0009-0006-7661-8247</a></p>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">
@@ -166,7 +315,7 @@
 <div class="developers">
 <h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
-<li>Steven Sanderson <br><small class="roles"> Author, maintainer, copyright holder </small> <a href="https://orcid.org/0009-0006-7661-8247" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Steven Sanderson <br><small class="roles"> Author, maintainer, copyright holder </small> <a href="https://orcid.org/0009-0006-7661-8247" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
 </ul>
 </div>
 
@@ -188,7 +337,7 @@
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.0.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.3.</p>
 </div>
 
     </footer>
