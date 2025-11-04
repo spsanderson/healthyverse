@@ -11,40 +11,40 @@ The **healthyverse** is a comprehensive ecosystem of R packages designed for hea
 ### 📚 Wiki Navigation
 
 #### Getting Started
-- **[Installation Guide](Installation-Guide)** - How to install healthyverse and its dependencies
-- **[Quick Start Tutorial](Quick-Start-Tutorial)** - Your first steps with healthyverse
-- **[Configuration](Configuration)** - Setting up your environment and preferences
+- **[Installation Guide](Installation-Guide.md)** - How to install healthyverse and its dependencies
+- **[Quick Start Tutorial](Quick-Start-Tutorial.md)** - Your first steps with healthyverse
+- **[Configuration](Configuration.md)** - Setting up your environment and preferences
 
 #### Core Documentation
-- **[Core Packages Overview](Core-Packages-Overview)** - Detailed information about each package
-- **[API Reference](API-Reference)** - Complete function reference and examples
-- **[Data Structures](Data-Structures)** - Understanding healthyverse data conventions
+- **[Core Packages Overview](Core-Packages-Overview.md)** - Detailed information about each package
+- **[API Reference](API-Reference.md)** - Complete function reference and examples
+- **[Data Structures](Data-Structures.md)** - Understanding healthyverse data conventions
 
 #### Practical Guides
-- **[Healthcare Data Analysis](Healthcare-Data-Analysis)** - Working with healthcare datasets
-- **[Time Series Forecasting](Time-Series-Forecasting)** - Forecasting workflows and best practices
-- **[Machine Learning Workflows](Machine-Learning-Workflows)** - AutoML and model building
-- **[Statistical Distributions](Statistical-Distributions)** - Working with TidyDensity
-- **[Random Walk Simulations](Random-Walk-Simulations)** - Using RandomWalker package
+- **[Healthcare Data Analysis](Healthcare-Data-Analysis.md)** - Working with healthcare datasets
+- **[Time Series Forecasting](Time-Series-Forecasting.md)** - Forecasting workflows and best practices
+- **[Machine Learning Workflows](Machine-Learning-Workflows.md)** - AutoML and model building
+- **[Statistical Distributions](Statistical-Distributions.md)** - Working with TidyDensity
+- **[Random Walk Simulations](Random-Walk-Simulations.md)** - Using RandomWalker package
 
 #### Advanced Topics
-- **[Package Management](Package-Management)** - Updating and maintaining healthyverse
-- **[Conflict Resolution](Conflict-Resolution)** - Handling function name conflicts
-- **[Performance Optimization](Performance-Optimization)** - Tips for large datasets
-- **[Integration with Other Packages](Integration-with-Other-Packages)** - tidyverse, tidymodels, and more
+- **[Package Management](Package-Management.md)** - Updating and maintaining healthyverse
+- **[Conflict Resolution](Conflict-Resolution.md)** - Handling function name conflicts
+- **[Performance Optimization](Performance-Optimization.md)** - Tips for large datasets
+- **[Integration with Other Packages](Integration-with-Other-Packages.md)** - tidyverse, tidymodels, and more
 
 #### Development & Contributing
-- **[Contributing Guide](Contributing-Guide)** - How to contribute to healthyverse
-- **[Development Setup](Development-Setup)** - Setting up a development environment
-- **[Testing Guide](Testing-Guide)** - Writing and running tests
-- **[Code Style Guidelines](Code-Style-Guidelines)** - Coding standards and conventions
+- **[Contributing Guide](Contributing-Guide.md)** - How to contribute to healthyverse
+- **[Development Setup](Development-Setup.md)** - Setting up a development environment
+- **[Testing Guide](Testing-Guide.md)** - Writing and running tests
+- **[Code Style Guidelines](Code-Style-Guidelines.md)** - Coding standards and conventions
 
 #### Support & Community
-- **[FAQ](FAQ)** - Frequently Asked Questions
-- **[Troubleshooting](Troubleshooting)** - Common issues and solutions
-- **[Getting Help](Getting-Help)** - Where to ask questions
-- **[Release Notes](Release-Notes)** - What's new in each version
-- **[Roadmap](Roadmap)** - Future plans and features
+- **[FAQ](FAQ.md)** - Frequently Asked Questions
+- **[Troubleshooting](Troubleshooting.md)** - Common issues and solutions
+- **[Getting Help](Getting-Help.md)** - Where to ask questions
+- **[Release Notes](Release-Notes.md)** - What's new in each version
+- **[Roadmap](Roadmap.md)** - Future plans and features
 
 ---
 
@@ -92,9 +92,9 @@ This wiki provides comprehensive documentation for the healthyverse ecosystem. W
 
 ## 💡 Need Help?
 
-- Browse the [FAQ](FAQ) for quick answers
-- Check [Troubleshooting](Troubleshooting) for common issues
-- Visit [Getting Help](Getting-Help) to contact the community
+- Browse the [FAQ](FAQ.md) for quick answers
+- Check [Troubleshooting](Troubleshooting.md) for common issues
+- Visit [Getting Help](Getting-Help.md) to contact the community
 - Run `healthyverse_sitrep()` to get diagnostic information
 
 Happy coding! 🎉

@@ -672,9 +672,9 @@ autoplot(final_forecast) +
 
 ## Next Steps
 
-- Explore [Healthcare Data Analysis](Healthcare-Data-Analysis) for metric calculations
-- Learn [Machine Learning Workflows](Machine-Learning-Workflows) for predictive modeling
-- Check [Performance Optimization](Performance-Optimization) for large time series
+- Explore [Healthcare Data Analysis](Healthcare-Data-Analysis.md) for metric calculations
+- Learn [Machine Learning Workflows](Machine-Learning-Workflows.md) for predictive modeling
+- Check [Performance Optimization](Performance-Optimization.md) for large time series
 
 ---
 

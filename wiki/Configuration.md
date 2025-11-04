@@ -568,9 +568,9 @@ if (Sys.info()["sysname"] == "Linux") {
 
 ## Next Steps
 
-- Review [Performance Optimization](Performance-Optimization) for advanced tuning
-- Check [Best Practices](Best-Practices) for workflow recommendations
-- Explore [Development Setup](Development-Setup) for contribution
+- Review [Performance Optimization](Performance-Optimization.md) for advanced tuning
+- Check [Best Practices](Best-Practices.md) for workflow recommendations
+- Explore [Development Setup](Development-Setup.md) for contribution
 
 ---
 

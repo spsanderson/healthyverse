@@ -25,7 +25,7 @@ If you haven't already, install the package:
 install.packages("healthyverse")
 ```
 
-See the [Installation Guide](Installation-Guide) for more details.
+See the [Installation Guide](Installation-Guide.md) for more details.
 
 ### 2. Load the Package
 
@@ -404,11 +404,11 @@ healthyverse_update()
 
 Now that you're familiar with the basics, explore:
 
-1. **[Core Packages Overview](Core-Packages-Overview)** - Deep dive into each package
-2. **[Healthcare Data Analysis](Healthcare-Data-Analysis)** - Advanced healthcare workflows
-3. **[Time Series Forecasting](Time-Series-Forecasting)** - Forecasting techniques
-4. **[Machine Learning Workflows](Machine-Learning-Workflows)** - AutoML and modeling
-5. **[API Reference](API-Reference)** - Complete function reference
+1. **[Core Packages Overview](Core-Packages-Overview.md)** - Deep dive into each package
+2. **[Healthcare Data Analysis](Healthcare-Data-Analysis.md)** - Advanced healthcare workflows
+3. **[Time Series Forecasting](Time-Series-Forecasting.md)** - Forecasting techniques
+4. **[Machine Learning Workflows](Machine-Learning-Workflows.md)** - AutoML and modeling
+5. **[API Reference](API-Reference.md)** - Complete function reference
 
 ---
 
@@ -452,7 +452,7 @@ If you get stuck:
 
 1. **Check the documentation**: `?function_name`
 2. **Browse vignettes**: `browseVignettes("package_name")`
-3. **Search the FAQ**: [FAQ](FAQ)
+3. **Search the FAQ**: [FAQ](FAQ.md)
 4. **Ask the community**: [GitHub Discussions](https://github.com/spsanderson/healthyverse/discussions)
 5. **Report bugs**: [GitHub Issues](https://github.com/spsanderson/healthyverse/issues)
 
