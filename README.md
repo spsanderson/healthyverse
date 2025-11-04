@@ -17,7 +17,7 @@ Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-squ
 ## Overview
 
 To view the full wiki, click here: [Full healthyverse
-Wiki](https://github.com/spsanderson/healthyverse/blob/main/wiki/README.md)
+Wiki](https://github.com/spsanderson/healthyverse/blob/main/wiki/Home.md)
 
 The **healthyverse** is a comprehensive ecosystem of R packages designed
 for healthcare data analysis, time-series forecasting, machine learning,
