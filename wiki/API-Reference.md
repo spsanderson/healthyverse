@@ -423,9 +423,9 @@ The following functions are primarily for internal use but may be useful for adv
 
 ### Related Documentation
 
-- [Quick Start Tutorial](Quick-Start-Tutorial) - Getting started guide
-- [Core Packages Overview](Core-Packages-Overview) - Details on each package
-- [Troubleshooting](Troubleshooting) - Common issues and solutions
+- [Quick Start Tutorial](Quick-Start-Tutorial.md) - Getting started guide
+- [Core Packages Overview](Core-Packages-Overview.md) - Details on each package
+- [Troubleshooting](Troubleshooting.md) - Common issues and solutions
 
 ### External Resources
 

@@ -508,10 +508,10 @@ healthyverse_sitrep()
 
 ## Next Steps
 
-- Explore [API Reference](API-Reference) for detailed function documentation
-- Try [Healthcare Data Analysis](Healthcare-Data-Analysis) examples
-- Learn [Time Series Forecasting](Time-Series-Forecasting) techniques
-- Build models with [Machine Learning Workflows](Machine-Learning-Workflows)
+- Explore [API Reference](API-Reference.md) for detailed function documentation
+- Try [Healthcare Data Analysis](Healthcare-Data-Analysis.md) examples
+- Learn [Time Series Forecasting](Time-Series-Forecasting.md) techniques
+- Build models with [Machine Learning Workflows](Machine-Learning-Workflows.md)
 
 ---
 

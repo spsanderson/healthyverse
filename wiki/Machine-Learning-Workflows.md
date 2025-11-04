@@ -715,9 +715,9 @@ saveRDS(best_model, "readmission_model.rds")
 
 ## Next Steps
 
-- Review [Healthcare Data Analysis](Healthcare-Data-Analysis) for feature engineering ideas
-- Learn [Performance Optimization](Performance-Optimization) for large datasets
-- Check [API Reference](API-Reference) for function details
+- Review [Healthcare Data Analysis](Healthcare-Data-Analysis.md) for feature engineering ideas
+- Learn [Performance Optimization](Performance-Optimization.md) for large datasets
+- Check [API Reference](API-Reference.md) for function details
 
 ---
 

@@ -337,9 +337,9 @@ For systems without internet access:
 
 After successful installation:
 
-1. Read the [Quick Start Tutorial](Quick-Start-Tutorial)
-2. Explore [Core Packages Overview](Core-Packages-Overview)
-3. Try example workflows in [Healthcare Data Analysis](Healthcare-Data-Analysis)
+1. Read the [Quick Start Tutorial](Quick-Start-Tutorial.md)
+2. Explore [Core Packages Overview](Core-Packages-Overview.md)
+3. Try example workflows in [Healthcare Data Analysis](Healthcare-Data-Analysis.md)
 
 ---
 
@@ -348,7 +348,7 @@ After successful installation:
 If you continue to have installation issues:
 
 1. Run `healthyverse_sitrep()` and save the output
-2. Check the [FAQ](FAQ) and [Troubleshooting](Troubleshooting) pages
+2. Check the [FAQ](FAQ.md) and [Troubleshooting](Troubleshooting.md) pages
 3. Search existing [GitHub Issues](https://github.com/spsanderson/healthyverse/issues)
 4. Create a new issue with:
    - Your `healthyverse_sitrep()` output

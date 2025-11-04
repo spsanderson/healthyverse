@@ -580,9 +580,9 @@ q2_2024 <- quarterly_report(data, 2024, 2)
 
 ## Next Steps
 
-- Learn [Time Series Forecasting](Time-Series-Forecasting) for trend analysis
-- Explore [Machine Learning Workflows](Machine-Learning-Workflows) for predictive modeling
-- Check [Performance Optimization](Performance-Optimization) for large datasets
+- Learn [Time Series Forecasting](Time-Series-Forecasting.md) for trend analysis
+- Explore [Machine Learning Workflows](Machine-Learning-Workflows.md) for predictive modeling
+- Check [Performance Optimization](Performance-Optimization.md) for large datasets
 
 ---
 

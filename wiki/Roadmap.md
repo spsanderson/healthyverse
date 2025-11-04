@@ -387,7 +387,7 @@ We want to hear from you!
 - **Watch** the [GitHub repository](https://github.com/spsanderson/healthyverse)
 - **Follow** [GitHub Discussions](https://github.com/spsanderson/healthyverse/discussions)
 - **Check** this Roadmap regularly for updates
-- **Read** [Release Notes](Release-Notes) for changes
+- **Read** [Release Notes](Release-Notes.md) for changes
 
 ---
 
@@ -436,7 +436,7 @@ Have questions about the roadmap?
 
 - **Ask in [Discussions](https://github.com/spsanderson/healthyverse/discussions)**
 - **Email**: spsanderson@gmail.com
-- **Check**: [FAQ](FAQ) for common questions
+- **Check**: [FAQ](FAQ.md) for common questions
 
 ---
 

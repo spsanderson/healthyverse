@@ -39,8 +39,8 @@ help.start()
 ### 2. Search Existing Resources
 
 - **This Wiki**: Use the search function or browse pages
-- **FAQ**: Check the [FAQ](FAQ) page
-- **Troubleshooting**: See [Troubleshooting](Troubleshooting) guide
+- **FAQ**: Check the [FAQ](FAQ.md) page
+- **Troubleshooting**: See [Troubleshooting](Troubleshooting.md) guide
 - **GitHub Issues**: Search [existing issues](https://github.com/spsanderson/healthyverse/issues)
 
 ### 3. Try to Solve It Yourself
@@ -86,10 +86,10 @@ Each healthyverse package has comprehensive documentation:
 ### Wiki Pages
 
 This wiki contains extensive guides:
-- [Quick Start Tutorial](Quick-Start-Tutorial)
-- [Installation Guide](Installation-Guide)
-- [Core Packages Overview](Core-Packages-Overview)
-- [API Reference](API-Reference)
+- [Quick Start Tutorial](Quick-Start-Tutorial.md)
+- [Installation Guide](Installation-Guide.md)
+- [Core Packages Overview](Core-Packages-Overview.md)
+- [API Reference](API-Reference.md)
 - And many more...
 
 ---
@@ -289,22 +289,22 @@ reprex({
 
 ### "Where do I start?"
 
-1. Read the [Quick Start Tutorial](Quick-Start-Tutorial)
+1. Read the [Quick Start Tutorial](Quick-Start-Tutorial.md)
 2. Try the examples in `?healthyverse`
 3. Browse vignettes with `browseVignettes("healthyverse")`
 
 ### "How do I do X?"
 
-1. Check the [API Reference](API-Reference)
+1. Check the [API Reference](API-Reference.md)
 2. Look at package-specific wikis:
-   - [Healthcare Data Analysis](Healthcare-Data-Analysis)
-   - [Time Series Forecasting](Time-Series-Forecasting)
-   - [Machine Learning Workflows](Machine-Learning-Workflows)
+   - [Healthcare Data Analysis](Healthcare-Data-Analysis.md)
+   - [Time Series Forecasting](Time-Series-Forecasting.md)
+   - [Machine Learning Workflows](Machine-Learning-Workflows.md)
 3. Search [GitHub Discussions](https://github.com/spsanderson/healthyverse/discussions)
 
 ### "Something's not working"
 
-1. Check [Troubleshooting](Troubleshooting) guide
+1. Check [Troubleshooting](Troubleshooting.md) guide
 2. Run `healthyverse_sitrep()` to check versions
 3. Update packages with `healthyverse_update()`
 4. Restart R and try again

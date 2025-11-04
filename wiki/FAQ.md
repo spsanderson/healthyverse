@@ -53,7 +53,7 @@ From GitHub (development version):
 devtools::install_github("spsanderson/healthyverse")
 ```
 
-See the [Installation Guide](Installation-Guide) for more details.
+See the [Installation Guide](Installation-Guide.md) for more details.
 
 ### What R version do I need?
 
@@ -251,7 +251,7 @@ Yes! View available vignettes:
 browseVignettes("healthyverse")
 ```
 
-Also check the [Quick Start Tutorial](Quick-Start-Tutorial) in this wiki.
+Also check the [Quick Start Tutorial](Quick-Start-Tutorial.md) in this wiki.
 
 ---
 
@@ -308,7 +308,7 @@ Several ways:
 4. Share examples and tutorials
 5. Help answer questions in Discussions
 
-See the [Contributing Guide](Contributing-Guide) for details.
+See the [Contributing Guide](Contributing-Guide.md) for details.
 
 ### I found a bug. What should I do?
 
@@ -338,7 +338,7 @@ Yes! Submit feature requests on [GitHub Issues](https://github.com/spsanderson/h
 5. Update documentation
 6. Submit pull request
 
-See [Development Setup](Development-Setup) for details.
+See [Development Setup](Development-Setup.md) for details.
 
 ---
 
@@ -405,7 +405,7 @@ library(healthyverse)
 
 ### Where can I get help?
 
-1. **This Wiki**: Check [Troubleshooting](Troubleshooting) page
+1. **This Wiki**: Check [Troubleshooting](Troubleshooting.md) page
 2. **GitHub Discussions**: Ask questions in [Discussions](https://github.com/spsanderson/healthyverse/discussions)
 3. **GitHub Issues**: Report bugs and request features
 4. **Email**: Contact maintainer at spsanderson@gmail.com
@@ -457,7 +457,7 @@ Check the package website and GitHub for:
 ### How can I stay updated?
 
 - Watch the GitHub repository
-- Check [Release Notes](Release-Notes)
+- Check [Release Notes](Release-Notes.md)
 - Follow the maintainer on social media
 - Subscribe to GitHub Discussions
 
@@ -468,7 +468,7 @@ Check the package website and GitHub for:
 If your question isn't answered here:
 
 1. Search the [GitHub Issues](https://github.com/spsanderson/healthyverse/issues)
-2. Check [Troubleshooting](Troubleshooting) page
+2. Check [Troubleshooting](Troubleshooting.md) page
 3. Ask in [GitHub Discussions](https://github.com/spsanderson/healthyverse/discussions)
 4. Review package documentation: `?healthyverse`
 

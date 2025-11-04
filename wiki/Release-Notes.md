@@ -298,7 +298,7 @@ library(healthyverse)
 
 ## Future Plans
 
-See [Roadmap](Roadmap) for upcoming features and releases.
+See [Roadmap](Roadmap.md) for upcoming features and releases.
 
 ### Planned for Next Release
 
@@ -368,7 +368,7 @@ Found a bug in a specific version?
 
 ## Contributing
 
-See [Contributing Guide](Contributing-Guide) for information on:
+See [Contributing Guide](Contributing-Guide.md) for information on:
 - Reporting bugs
 - Suggesting features
 - Submitting pull requests
