@@ -16,16 +16,18 @@ Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-squ
 
 ## Overview
 
-The **healthyverse** is a comprehensive ecosystem of R packages
-designed for healthcare data analysis, time-series forecasting, machine
-learning, and statistical modeling. Inspired by the tidyverse
-philosophy, the healthyverse packages work in harmony because they share
-common data representations and API design patterns.
+To view the full wiki, click here: [Full healthyverse
+Wiki](https://github.com/spsanderson/healthyverse/blob/main/wiki/README.md)
 
-The **healthyverse** package itself is a meta-package that makes it
-easy to install and load all core healthyverse packages in a single
-command, similar to how the tidyverse package works for data science
-workflows.
+The **healthyverse** is a comprehensive ecosystem of R packages designed
+for healthcare data analysis, time-series forecasting, machine learning,
+and statistical modeling. Inspired by the tidyverse philosophy, the
+healthyverse packages work in harmony because they share common data
+representations and API design patterns.
+
+The **healthyverse** package itself is a meta-package that makes it easy
+to install and load all core healthyverse packages in a single command,
+similar to how the tidyverse package works for data science workflows.
 
 ### Why healthyverse?
 
@@ -112,17 +114,14 @@ Simply load the healthyverse to get started:
 
 ``` r
 library(healthyverse)
-#> ── Attaching packages ─────────────────────────────── healthyverse 1.0.4.9000 ──
-#> ✔ healthyR      0.2.2          ✔ TidyDensity   1.5.0     
-#> ✔ healthyR.data 1.1.1          ✔ tidyAML       0.0.5.9000
-#> ✔ healthyR.ts   0.3.0.9000     ✔ RandomWalker  0.1.0     
-#> ✔ healthyR.ai   0.1.0
-#> Warning: package 'healthyR.data' was built under R version 4.3.3
-#> Warning: package 'TidyDensity' was built under R version 4.3.3
-#> Warning: package 'parsnip' was built under R version 4.3.3
-#> Warning: package 'RandomWalker' was built under R version 4.3.3
+#> ── Attaching packages ─────────────────────────────── healthyverse 1.1.0.9000 ──
+#> ✔ healthyR      0.2.2          ✔ TidyDensity   1.5.2     
+#> ✔ healthyR.data 1.2.0          ✔ tidyAML       0.0.6.9000
+#> ✔ healthyR.ts   0.3.1          ✔ RandomWalker  1.0.0.9000
+#> ✔ healthyR.ai   0.1.1.9000
 #> ── Conflicts ─────────────────────────────────────── healthyverse_conflicts() ──
 #> ✖ tidyAML::check_duplicate_rows() masks TidyDensity::check_duplicate_rows()
+#> ✖ RandomWalker::cmedian()         masks TidyDensity::cmedian()
 #> ✖ tidyAML::quantile_normalize()   masks TidyDensity::quantile_normalize()
 ```
 
@@ -133,7 +132,7 @@ This single command loads all seven core packages and displays:
 
 ### Managing Conflicts
 
-You'll get an automatic summary of function conflicts when you load the
+You’ll get an automatic summary of function conflicts when you load the
 healthyverse. You can check for conflicts at any time:
 
 ``` r
@@ -141,6 +140,7 @@ library(MASS)
 healthyverse_conflicts()
 #> ── Conflicts ─────────────────────────────────────── healthyverse_conflicts() ──
 #> ✖ tidyAML::check_duplicate_rows() masks TidyDensity::check_duplicate_rows()
+#> ✖ RandomWalker::cmedian()         masks TidyDensity::cmedian()
 #> ✖ tidyAML::quantile_normalize()   masks TidyDensity::quantile_normalize()
 ```
 
@@ -226,7 +226,7 @@ output in your issue.
 
 ## Contributing
 
-We welcome contributions! Here's how you can help:
+We welcome contributions! Here’s how you can help:
 
 - 🐛 **Report bugs** and suggest features via [GitHub
   Issues](https://github.com/spsanderson/healthyverse/issues)
@@ -254,7 +254,7 @@ The healthyverse is part of a broader ecosystem of R packages for
 healthcare analytics:
 
 - **[tidyverse](https://www.tidyverse.org/)** - The inspiration for
-  healthyverse's design philosophy
+  healthyverse’s design philosophy
 - **[tidymodels](https://www.tidymodels.org/)** - Framework for modeling
   and machine learning
 - **[forecast](https://pkg.robjhyndman.com/forecast/)** - Time-series
@@ -270,6 +270,5 @@ change logs.
 
 **Author**: Steven P. Sanderson II, MPH  
 **License**: MIT  
-**Website**:
-<https://www.spsanderson.com/healthyverse/>  
+**Website**: <https://www.spsanderson.com/healthyverse/>  
 **ORCID**: [0009-0006-7661-8247](https://orcid.org/0009-0006-7661-8247)

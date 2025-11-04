@@ -23,6 +23,8 @@ knitr::opts_chunk$set(
 
 ## Overview
 
+To view the full wiki, click here: [Full healthyverse Wiki](https://github.com/spsanderson/healthyverse/blob/main/wiki/README.md)
+
 The **healthyverse** is a comprehensive ecosystem of R packages designed for healthcare data analysis, time-series forecasting, machine learning, and statistical modeling. Inspired by the tidyverse philosophy, the healthyverse packages work in harmony because they share common data representations and API design patterns.
 
 The **healthyverse** package itself is a meta-package that makes it easy to install and load all core healthyverse packages in a single command, similar to how the tidyverse package works for data science workflows.
