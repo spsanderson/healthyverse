@@ -18,7 +18,6 @@ The **healthyverse** is a comprehensive ecosystem of R packages designed for hea
 #### Core Documentation
 - **[Core Packages Overview](Core-Packages-Overview.md)** - Detailed information about each package
 - **[API Reference](API-Reference.md)** - Complete function reference and examples
-- **[Data Structures](Data-Structures.md)** - Understanding healthyverse data conventions
 
 #### Practical Guides
 - **[Healthcare Data Analysis](Healthcare-Data-Analysis.md)** - Working with healthcare datasets
