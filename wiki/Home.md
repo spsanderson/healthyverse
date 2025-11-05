@@ -23,20 +23,13 @@ The **healthyverse** is a comprehensive ecosystem of R packages designed for hea
 - **[Healthcare Data Analysis](Healthcare-Data-Analysis.md)** - Working with healthcare datasets
 - **[Time Series Forecasting](Time-Series-Forecasting.md)** - Forecasting workflows and best practices
 - **[Machine Learning Workflows](Machine-Learning-Workflows.md)** - AutoML and model building
-- **[Statistical Distributions](Statistical-Distributions.md)** - Working with TidyDensity
-- **[Random Walk Simulations](Random-Walk-Simulations.md)** - Using RandomWalker package
 
 #### Advanced Topics
-- **[Package Management](Package-Management.md)** - Updating and maintaining healthyverse
-- **[Conflict Resolution](Conflict-Resolution.md)** - Handling function name conflicts
 - **[Performance Optimization](Performance-Optimization.md)** - Tips for large datasets
 - **[Integration with Other Packages](Integration-with-Other-Packages.md)** - tidyverse, tidymodels, and more
 
 #### Development & Contributing
 - **[Contributing Guide](Contributing-Guide.md)** - How to contribute to healthyverse
-- **[Development Setup](Development-Setup.md)** - Setting up a development environment
-- **[Testing Guide](Testing-Guide.md)** - Writing and running tests
-- **[Code Style Guidelines](Code-Style-Guidelines.md)** - Coding standards and conventions
 
 #### Support & Community
 - **[FAQ](FAQ.md)** - Frequently Asked Questions
