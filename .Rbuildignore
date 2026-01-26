@@ -17,3 +17,6 @@ img
 ^index\.Rmd$
 ^Meta$
 ^CRAN-SUBMISSION$
+^wiki$
+^WIKI_SUMMARY.md$
+^articles$

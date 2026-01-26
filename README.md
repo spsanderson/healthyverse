@@ -115,10 +115,11 @@ Simply load the healthyverse to get started:
 ``` r
 library(healthyverse)
 #> ── Attaching packages ─────────────────────────────── healthyverse 1.1.0.9000 ──
-#> ✔ healthyR      0.2.2          ✔ TidyDensity   1.5.2     
+#> ✔ healthyR      0.2.2          ✔ TidyDensity   1.5.2.9000
 #> ✔ healthyR.data 1.2.0          ✔ tidyAML       0.0.6.9000
-#> ✔ healthyR.ts   0.3.1          ✔ RandomWalker  1.0.0.9000
+#> ✔ healthyR.ts   0.3.2          ✔ RandomWalker  1.0.0.9000
 #> ✔ healthyR.ai   0.1.1.9000
+#> Warning: package 'healthyR.ts' was built under R version 4.5.2
 #> ── Conflicts ─────────────────────────────────────── healthyverse_conflicts() ──
 #> ✖ tidyAML::check_duplicate_rows() masks TidyDensity::check_duplicate_rows()
 #> ✖ RandomWalker::cmedian()         masks TidyDensity::cmedian()
@@ -253,7 +254,7 @@ citation("healthyverse")
 The healthyverse is part of a broader ecosystem of R packages for
 healthcare analytics:
 
-- **[tidyverse](https://www.tidyverse.org/)** - The inspiration for
+- **[tidyverse](https://tidyverse.org/)** - The inspiration for
   healthyverse’s design philosophy
 - **[tidymodels](https://www.tidymodels.org/)** - Framework for modeling
   and machine learning

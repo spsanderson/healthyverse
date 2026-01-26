@@ -196,7 +196,7 @@ citation("healthyverse")
 
 The healthyverse is part of a broader ecosystem of R packages for healthcare analytics:
 
-- **[tidyverse](https://www.tidyverse.org/)** - The inspiration for healthyverse's design philosophy
+- **[tidyverse](https://tidyverse.org/)** - The inspiration for healthyverse's design philosophy
 - **[tidymodels](https://www.tidymodels.org/)** - Framework for modeling and machine learning
 - **[forecast](https://pkg.robjhyndman.com/forecast/)** - Time-series forecasting methods
 
